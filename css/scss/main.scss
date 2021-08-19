@@ -1,0 +1,71 @@
+@import "parciales/fuentes";
+@import "parciales/colores";
+
+.texto--fuente__lora {
+    font-family: $lora;
+}
+
+.texto--fuente__kalam {
+    font-family: $kalam;
+}
+
+.textoSinNada {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+    background-color: $color4;
+    border-radius: 15%;
+}
+
+.bg--color__color1 {
+    background-color: $color1;
+}
+
+.bg--color__color2 {
+    background-color: $color2;
+}
+
+.bg--color__color3 {
+    background-color: $color3;
+}
+
+.bg--color__color4 {
+    background-color: $color4;
+}
+
+.bg--color__color5 {
+    background-color: $color5;
+}
+
+.header {
+    height: 75vh;
+}
+
+.imagenRedonda {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.perritosAdopcion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 576px) {
+    .imagenRedonda {
+        height: 100%;
+    }
+
+    .perritosAdopcion {
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    .perritosAdopcion {
+        display: block;
+    }
+}
